@@ -38,6 +38,8 @@ body {
     margin-right: 20%;
 }
 
+
+
 #landing-html { 
     height: 100%;
 }
@@ -121,6 +123,7 @@ body {
 
 
 #top-right-nav { 
+
     margin-left: -2.5%;
     width: 50%;
 }
@@ -137,7 +140,6 @@ body {
 }
 
 #top-right-nav li a { 
-    color: var(--font_color);
     font-size: 21px;
     padding: 0.5vw;
     display: inline;
@@ -236,15 +238,18 @@ body {
 #resume-body {
     width: 60vw;
     color: #161d2e;
-    background-image: url("Assets/background-resume2.png");
+    background-image: url("Assets/background-resume3.png");
 }
 
 #resume-top { 
-    background-color: white;
+    background-color: #F7F7F7;
     border: 15px solid #161d2e;
     padding: 20px;
     color: #161d2e;
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #resume-top h1 { 
@@ -253,15 +258,19 @@ body {
     font-size: 100px;
 }
 
-.resume-nav{
-    color: #161d2e !important;
-    margin-bottom: -60px;
+.resume-nav {
+    color: #161d2e;
+}
+
+#resume-top a:hover { 
+    color: gold;
+    /* background-color: #161d2e; */
 }
 
 .resume-section { 
     border: 15px solid #161d2e;
     padding: 20px;
-    background-color: white;
+    background-color: #F7F7F7;
 }
 
 .resume-section a {
@@ -269,13 +278,22 @@ body {
 }
 
 .resume-section ul { 
+    margin-left: -30px;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .resume-section img { 
     height: 100px;
     width: 100px;
+}
+
+
+.resume-section img:hover { 
+    background-color: #CCCCCC;
+    border: 10px solid #CCCCCC;
 }
 
 .download {
@@ -293,6 +311,10 @@ body {
 .resume { 
     height: 1000px;
     width: 100%;
+}
+
+iframe { 
+    overflow: hidden;
 }
 
 .links {
