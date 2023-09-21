@@ -25,6 +25,17 @@ body {
     height: 120px;
 }
 
+ul { 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul img { 
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
 
 .name { 
     margin-top: 10vh;
@@ -184,6 +195,19 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.resume-section ul { 
+    margin-left: -30px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.resume-section img { 
+    height: 100px;
+    width: 100px;
 }
 
 .left { 

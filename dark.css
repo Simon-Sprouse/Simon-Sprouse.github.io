@@ -3,7 +3,7 @@
     src: url("Fonts/SAMAN.TTF") format("opentype");
     font-weight: 900;
 }
-
+ 
 @font-face {
     font-family: "inter";
     src: url("Fonts/Inter-Regular.ttf") format("opentype");
@@ -33,11 +33,11 @@
 */
 
 body {
-    color: var(--font_color);
+    color: white;
+    background-color: #161d2e;
     margin-left: 20%;
     margin-right: 20%;
 }
-
 
 
 #landing-html { 
@@ -122,8 +122,8 @@ body {
 }
 
 .top { 
-    background-color: #F7F7F7;
-    border: 15px solid #161d2e;
+    background-color: #161d2e;
+    border: 15px solid white;
     color: #161d2e;
     /* adds space between nav and section */
     margin-bottom: 30px; 
@@ -138,7 +138,8 @@ body {
 }
 
 .top a {
-    color: black;
+    font-family: "inter";
+    color: white;
 }
 
 
@@ -178,7 +179,9 @@ body {
 */
 
 #projects-body { 
-    background-color: #690000;
+    background-image: url("Assets/background-resume3.png");
+    /* background-color: #161d2e; */
+    color: white;
 }
 
 .projects-gallery a { 
@@ -186,7 +189,7 @@ body {
 }
 
 #projects-section { 
-    background-color: #8D0000;
+    background-color: #161d2e;
     border: 10px solid white;
     padding: 20px;
     text-decoration: none;
@@ -204,7 +207,7 @@ body {
 }
 
 .project-tile { 
-    background-color: #B50000;
+    background-color: #161d2e;
     border: 10px solid white;
     padding: 2vh;
     margin: 3vh;
@@ -256,17 +259,11 @@ body {
 ---------------------------------
 */
 
-#resume-body {
-    width: 60vw;
-    color: #161d2e;
-    background-image: url("Assets/background-resume3.png");
+#resume-body { 
+    background-color: #161d2e;
+
 }
 
-
-
-.resume-nav {
-    color: #161d2e;
-}
 
 #resume-top a:hover { 
     color: gold;
@@ -276,7 +273,6 @@ body {
 .resume-section { 
     border: 15px solid #161d2e;
     padding: 20px;
-    background-color: #F7F7F7;
 }
 
 .resume-section a {
@@ -365,7 +361,19 @@ iframe {
 */
 
 #library-body { 
-    background-color: #00636E;
+    background-color: #E4B234;
+}
+
+#boaz { 
+    position: absolute;
+    top: 0;
+    left: 2vw;
+}
+
+#jachin { 
+    position: absolute;
+    top: 0;
+    right: 2vw;
 }
 
 .ai { 
